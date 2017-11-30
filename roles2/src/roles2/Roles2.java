@@ -1,4 +1,4 @@
-/**Realizamos la impresion de los numeros en formato LCD*//
+/**Realizamos la impresion de los numeros en formato LCD*/
 /*participantes del ejercicio el equipo formnado por 
 Ada
 Javier

@@ -28,8 +28,8 @@ public class Ar04 {
 				}
 			}
 		}
-		System.out.printf("El número más grande  es el %3d (Posición %d,%d)\n",mayor,(primermayor),pM2); // Se resta -1 porque se ha guardado con +1 
-		System.out.printf("El número más pequeño es el %3d (Posición %d,%d)\n",menor,(primermenor),pm2); // Se resta -1 porque se ha guardado con +1
+		System.out.printf("El número más grande  es el %3d (Posición %d,%d)\n",mayor,(pM2),primermayor); // Se resta -1 porque se ha guardado con +1 
+		System.out.printf("El número más pequeño es el %3d (Posición %d,%d)\n",menor,(pm2),primermenor); // Se resta -1 porque se ha guardado con +1
 	}
 
 }

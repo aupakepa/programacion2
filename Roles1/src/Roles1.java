@@ -23,11 +23,8 @@ public class Roles1 {
 				error = -1;
 			}
 			for (int i = 1; i < Frase.length()-1; i++) {//para evitar que se meta una letra en un campo numerico
-<<<<<<< HEAD
 				if ((Frase.charAt(i)) < '0' || (Frase.charAt(i) > '9'))
-=======
 				if (((int)Frase.charAt(i)) < 48 || ((int)Frase.charAt(i) > 57))
->>>>>>> 5792d99be99045ba7b20a2dac54c67b5c929132e
 				error = -1;
 			}
 		} while (error == -1);

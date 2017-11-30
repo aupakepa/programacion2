@@ -10,7 +10,7 @@ public class Ejercicio9 {
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("introducir un numero por teclado");
 		int numero = teclado.nextInt();
-		if (numero > 0) {
+		if (numero >= 0) {
 			System.out.println("Positivo");
 		}
 		else {
