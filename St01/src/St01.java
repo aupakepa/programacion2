@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-/**1. Leer una frase de máximo 80 caracteres y escribirla progresivamente es decir si la frase es: “ciervo”, 
+/**1. Leer una frase de máximo 80 caracteres y escribirla progresivamente es decir si la frase 
+ * es: “ciervo”, 
  * el programa debe imprimir
 c
 ci
@@ -22,7 +23,7 @@ public class St01 {
 			frase = teclado.nextLine();
 		}
 		for (int i = 0; i < frase.length(); i++) {
-			Thread.sleep(100);
+			Thread.sleep(100); //hemos decidido imprimirlo como
 			System.out.print(frase.charAt(i));
 		}
 		teclado.close();

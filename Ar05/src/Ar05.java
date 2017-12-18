@@ -17,25 +17,25 @@ public class Ar05 {
 		int vector2 [] = new int [10];
 		int contador [] = new int [10];
 		System.out.println("vector 1");
-		for (int i = 0; i < vector1.length; i++) {
+		for (int i = 0; i < vector1.length; i++) {// rellenar e imprinir el primer vector
 			vector1[i] = (int)(Math.random()*5)+1;
 			System.out.printf ("%1d ",vector1[i]);
 		}
 		System.out.println("\n");
 		System.out.println("vector 2");
-		for (int i = 0; i < vector2.length; i++) {
+		for (int i = 0; i < vector2.length; i++) {// rellenar e imprimir el segungo vector
 			vector2[i] = (int)(Math.random()*5)+1;
 			System.out.printf ("%1d ",vector2[i]);
 		}
 		System.out.println("\n");
 		
-		for (int i = 0; i < vector1.length; i++) {
+		for (int i = 0; i < vector1.length; i++) {// revisar un elemento del vector 1 y 
 			for (int j = 0; j < vector2.length; j++) {
-				if(vector1 [i] == vector2 [j])
-				{contador[i]++;
+				if(vector1 [i] == vector2 [j])//compararlo con cada elemento del vector dos
+				{contador[i]++; // sumarlo a un vector contador
 				}
 			}
-			System.out.println(" El numero "+vector1[i]+" : "+contador[i]+" Veces");
+			System.out.println(" La posicion "+i+" con valor "+vector1[i]+" : "+contador[i]+" Veces");
 		}
 	}
 }
